@@ -1,6 +1,6 @@
-package com.gec.dao;
+package com.lich.dao;
 
-import com.gec.bean.Document;
+import com.lich.bean.Document;
 
 public interface DocumentDao extends BaseDao<Document>{
 	

@@ -1,6 +1,6 @@
-package com.gec.service;
+package com.lich.service;
 
-import com.gec.dao.DeptDao;
+import com.lich.dao.DeptDao;
 
 public interface DeptService extends DeptDao{
 

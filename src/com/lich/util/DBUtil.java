@@ -1,4 +1,4 @@
-package com.gec.util;
+package com.lich.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

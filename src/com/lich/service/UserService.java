@@ -1,6 +1,6 @@
-package com.gec.service;
+package com.lich.service;
 
-import com.gec.dao.UserDao;
+import com.lich.dao.UserDao;
 
 public interface UserService extends UserDao {
 

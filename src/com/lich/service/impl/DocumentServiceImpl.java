@@ -1,13 +1,13 @@
-package com.gec.service.impl;
+package com.lich.service.impl;
 
 import java.util.List;
 
-import com.gec.bean.Document;
-import com.gec.bean.PageBean;
-import com.gec.bean.User;
-import com.gec.dao.DocumentDao;
-import com.gec.dao.impl.DocumentDaoImpl;
-import com.gec.service.DocumentService;
+import com.lich.bean.Document;
+import com.lich.bean.PageBean;
+import com.lich.bean.User;
+import com.lich.dao.DocumentDao;
+import com.lich.dao.impl.DocumentDaoImpl;
+import com.lich.service.DocumentService;
 
 public class DocumentServiceImpl implements DocumentService {
 	DocumentDao dd = new DocumentDaoImpl();

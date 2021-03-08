@@ -1,12 +1,12 @@
-package com.gec.service.impl;
+package com.lich.service.impl;
 
 import java.util.List;
 
-import com.gec.bean.Notice;
-import com.gec.bean.PageBean;
-import com.gec.dao.NoticeDao;
-import com.gec.dao.impl.NoticeDaoImpl;
-import com.gec.service.NoticeService;
+import com.lich.bean.Notice;
+import com.lich.bean.PageBean;
+import com.lich.dao.NoticeDao;
+import com.lich.dao.impl.NoticeDaoImpl;
+import com.lich.service.NoticeService;
 
 public class NoticeServiceImpl implements NoticeService {
 	NoticeDao nd = new NoticeDaoImpl();

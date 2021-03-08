@@ -1,4 +1,4 @@
-package com.gec.servlet;
+package com.lich.servlet;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
@@ -24,15 +24,15 @@ import org.apache.commons.fileupload.FileItemFactory;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 
-import com.gec.bean.Dept;
-import com.gec.bean.Document;
-import com.gec.bean.PageBean;
-import com.gec.bean.User;
-import com.gec.service.DocumentService;
-import com.gec.service.UserService;
-import com.gec.service.impl.DocumentServiceImpl;
-import com.gec.service.impl.UserServiceImpl;
-import com.gec.util.DBUtil;
+import com.lich.bean.Dept;
+import com.lich.bean.Document;
+import com.lich.bean.PageBean;
+import com.lich.bean.User;
+import com.lich.service.DocumentService;
+import com.lich.service.UserService;
+import com.lich.service.impl.DocumentServiceImpl;
+import com.lich.service.impl.UserServiceImpl;
+import com.lich.util.DBUtil;
 
 /**
  * Servlet implementation class documentlist

@@ -1,12 +1,12 @@
-package com.gec.service.impl;
+package com.lich.service.impl;
 
 import java.util.List;
 
-import com.gec.bean.Job;
-import com.gec.bean.PageBean;
-import com.gec.dao.JobDao;
-import com.gec.dao.impl.JobDaoImpl;
-import com.gec.service.JobService;
+import com.lich.bean.Job;
+import com.lich.bean.PageBean;
+import com.lich.dao.JobDao;
+import com.lich.dao.impl.JobDaoImpl;
+import com.lich.service.JobService;
 
 public class JobServiceImpl implements JobService {
 JobDao jd = new JobDaoImpl();

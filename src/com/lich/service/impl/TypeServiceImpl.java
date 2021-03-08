@@ -1,12 +1,12 @@
-package com.gec.service.impl;
+package com.lich.service.impl;
 
 import java.util.List;
 
-import com.gec.bean.PageBean;
-import com.gec.bean.Type;
-import com.gec.dao.TypeDao;
-import com.gec.dao.impl.TypeDaoImap;
-import com.gec.service.TypeService;
+import com.lich.bean.PageBean;
+import com.lich.bean.Type;
+import com.lich.dao.TypeDao;
+import com.lich.dao.impl.TypeDaoImap;
+import com.lich.service.TypeService;
 
 public class TypeServiceImpl implements TypeService {
 	TypeDao td = new TypeDaoImap();

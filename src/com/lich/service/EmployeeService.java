@@ -1,6 +1,6 @@
-package com.gec.service;
+package com.lich.service;
 
-import com.gec.dao.EmployeeDao;
+import com.lich.dao.EmployeeDao;
 
 public interface EmployeeService extends EmployeeDao{
 

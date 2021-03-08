@@ -1,7 +1,7 @@
-package com.gec.dao;
+package com.lich.dao;
 
-import com.gec.bean.Employee;
-import com.gec.bean.Job;
+import com.lich.bean.Employee;
+import com.lich.bean.Job;
 
 public interface JobDao extends BaseDao<Job>{
 

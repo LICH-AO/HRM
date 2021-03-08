@@ -1,8 +1,8 @@
-package com.gec.dao;
+package com.lich.dao;
 
 import java.util.List;
 
-import com.gec.bean.PageBean;
+import com.lich.bean.PageBean;
 
 public interface BaseDao<T> {
 

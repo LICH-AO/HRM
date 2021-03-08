@@ -1,4 +1,4 @@
-package com.gec.servlet;
+package com.lich.servlet;
 
 import java.io.IOException;
 import java.util.List;
@@ -10,11 +10,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.gec.bean.User;
-import com.gec.service.UserService;
-import com.gec.service.impl.UserServiceImpl;
-
-import com.gec.bean.PageBean;
+import com.lich.bean.PageBean;
+import com.lich.bean.User;
+import com.lich.service.UserService;
+import com.lich.service.impl.UserServiceImpl;
 /**
  * Servlet implementation class User
  */

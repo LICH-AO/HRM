@@ -1,6 +1,6 @@
-package com.gec.dao;
+package com.lich.dao;
 
-import com.gec.bean.Dept;
+import com.lich.bean.Dept;
 
 public interface DeptDao extends BaseDao<Dept>{
 

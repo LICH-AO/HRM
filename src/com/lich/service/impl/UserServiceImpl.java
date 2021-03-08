@@ -1,12 +1,12 @@
-package com.gec.service.impl;
+package com.lich.service.impl;
 
 import java.util.List;
 
-import com.gec.bean.PageBean;
-import com.gec.bean.User;
-import com.gec.dao.UserDao;
-import com.gec.dao.impl.UserDaoImpl;
-import com.gec.service.UserService;
+import com.lich.bean.PageBean;
+import com.lich.bean.User;
+import com.lich.dao.UserDao;
+import com.lich.dao.impl.UserDaoImpl;
+import com.lich.service.UserService;
 
 public class UserServiceImpl implements UserService {
 

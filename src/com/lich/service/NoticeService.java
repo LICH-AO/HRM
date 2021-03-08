@@ -1,6 +1,6 @@
-package com.gec.service;
+package com.lich.service;
 
-import com.gec.dao.NoticeDao;
+import com.lich.dao.NoticeDao;
 
 public interface NoticeService extends NoticeDao {
 

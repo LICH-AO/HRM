@@ -1,6 +1,6 @@
-package com.gec.service;
+package com.lich.service;
 
-import com.gec.dao.DocumentDao;
+import com.lich.dao.DocumentDao;
 
 public interface DocumentService extends DocumentDao {
 

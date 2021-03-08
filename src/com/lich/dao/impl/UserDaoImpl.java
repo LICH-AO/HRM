@@ -1,14 +1,14 @@
-package com.gec.dao.impl;
+package com.lich.dao.impl;
 
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.gec.bean.Employee;
-import com.gec.bean.PageBean;
-import com.gec.bean.User;
-import com.gec.dao.UserDao;
-import com.gec.util.DBUtil;
+import com.lich.bean.Employee;
+import com.lich.bean.PageBean;
+import com.lich.bean.User;
+import com.lich.dao.UserDao;
+import com.lich.util.DBUtil;
 
 
 public class UserDaoImpl extends DBUtil<User> implements UserDao {

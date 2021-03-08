@@ -1,14 +1,14 @@
-package com.gec.service.impl;
+package com.lich.service.impl;
 
 import java.sql.ResultSet;
 import java.util.List;
 
-import com.gec.bean.Dept;
-import com.gec.bean.PageBean;
-import com.gec.dao.DeptDao;
-import com.gec.dao.impl.DeptDaoImpl;
-import com.gec.service.DeptService;
-import com.gec.util.DBUtil;
+import com.lich.bean.Dept;
+import com.lich.bean.PageBean;
+import com.lich.dao.DeptDao;
+import com.lich.dao.impl.DeptDaoImpl;
+import com.lich.service.DeptService;
+import com.lich.util.DBUtil;
 
 public class DeptServiceImpl implements DeptService{
 	DeptDao dd = new DeptDaoImpl();

@@ -1,6 +1,6 @@
-package com.gec.dao;
+package com.lich.dao;
 
-import com.gec.bean.Notice;
+import com.lich.bean.Notice;
 
 public interface NoticeDao extends BaseDao<Notice>{
 

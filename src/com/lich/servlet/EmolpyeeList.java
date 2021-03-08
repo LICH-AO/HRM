@@ -1,4 +1,4 @@
-package com.gec.servlet;
+package com.lich.servlet;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -14,17 +14,17 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.gec.bean.Dept;
-import com.gec.bean.Employee;
-import com.gec.bean.Job;
-import com.gec.bean.PageBean;
-import com.gec.bean.User;
-import com.gec.service.DeptService;
-import com.gec.service.EmployeeService;
-import com.gec.service.JobService;
-import com.gec.service.impl.DeptServiceImpl;
-import com.gec.service.impl.EmployeeServiceIpl;
-import com.gec.service.impl.JobServiceImpl;
+import com.lich.bean.Dept;
+import com.lich.bean.Employee;
+import com.lich.bean.Job;
+import com.lich.bean.PageBean;
+import com.lich.bean.User;
+import com.lich.service.DeptService;
+import com.lich.service.EmployeeService;
+import com.lich.service.JobService;
+import com.lich.service.impl.DeptServiceImpl;
+import com.lich.service.impl.EmployeeServiceIpl;
+import com.lich.service.impl.JobServiceImpl;
 
 /**
  * Servlet implementation class EmolpyeeList

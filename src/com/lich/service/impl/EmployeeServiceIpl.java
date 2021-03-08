@@ -1,12 +1,12 @@
-package com.gec.service.impl;
+package com.lich.service.impl;
 
 import java.util.List;
 
-import com.gec.bean.Employee;
-import com.gec.bean.PageBean;
-import com.gec.dao.EmployeeDao;
-import com.gec.dao.impl.EmployeeDaoImpl;
-import com.gec.service.EmployeeService;
+import com.lich.bean.Employee;
+import com.lich.bean.PageBean;
+import com.lich.dao.EmployeeDao;
+import com.lich.dao.impl.EmployeeDaoImpl;
+import com.lich.service.EmployeeService;
 
 public class EmployeeServiceIpl implements EmployeeService {
 	EmployeeDao ed = new EmployeeDaoImpl();

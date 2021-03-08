@@ -1,4 +1,4 @@
-package com.gec.filter;
+package com.lich.filter;
 
 import java.io.IOException;
 import javax.servlet.Filter;

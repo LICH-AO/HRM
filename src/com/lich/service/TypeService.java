@@ -1,6 +1,6 @@
-package com.gec.service;
+package com.lich.service;
 
-import com.gec.dao.TypeDao;
+import com.lich.dao.TypeDao;
 
 public interface TypeService extends TypeDao {
 

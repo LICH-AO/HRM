@@ -1,4 +1,4 @@
-package com.gec.servlet;
+package com.lich.servlet;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -8,12 +8,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import com.gec.bean.Dept;
-import com.gec.bean.Job;
-import com.gec.bean.PageBean;
-import com.gec.bean.User;
-import com.gec.service.JobService;
-import com.gec.service.impl.JobServiceImpl;
+import com.lich.bean.Dept;
+import com.lich.bean.Job;
+import com.lich.bean.PageBean;
+import com.lich.bean.User;
+import com.lich.service.JobService;
+import com.lich.service.impl.JobServiceImpl;
 
 /**
  * Servlet implementation class joblist

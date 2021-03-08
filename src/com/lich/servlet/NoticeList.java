@@ -1,4 +1,4 @@
-package com.gec.servlet;
+package com.lich.servlet;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -17,18 +17,18 @@ import javax.servlet.http.HttpSession;
 
 import org.apache.logging.log4j.core.config.plugins.util.ResolverUtil.Test;
 
-import com.gec.bean.Dept;
-import com.gec.bean.Job;
-import com.gec.bean.Notice;
-import com.gec.bean.PageBean;
-import com.gec.bean.Type;
-import com.gec.bean.User;
-import com.gec.service.NoticeService;
-import com.gec.service.TypeService;
-import com.gec.service.UserService;
-import com.gec.service.impl.NoticeServiceImpl;
-import com.gec.service.impl.TypeServiceImpl;
-import com.gec.service.impl.UserServiceImpl;
+import com.lich.bean.Dept;
+import com.lich.bean.Job;
+import com.lich.bean.Notice;
+import com.lich.bean.PageBean;
+import com.lich.bean.Type;
+import com.lich.bean.User;
+import com.lich.service.NoticeService;
+import com.lich.service.TypeService;
+import com.lich.service.UserService;
+import com.lich.service.impl.NoticeServiceImpl;
+import com.lich.service.impl.TypeServiceImpl;
+import com.lich.service.impl.UserServiceImpl;
 
 /**
  * Servlet implementation class NoticeList

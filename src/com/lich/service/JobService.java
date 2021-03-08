@@ -1,6 +1,6 @@
-package com.gec.service;
+package com.lich.service;
 
-import com.gec.dao.JobDao;
+import com.lich.dao.JobDao;
 
 public interface JobService extends  JobDao{
 

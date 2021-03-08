@@ -1,16 +1,16 @@
-package com.gec.dao.impl;
+package com.lich.dao.impl;
 
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.gec.bean.Job;
-import com.gec.bean.Notice;
-import com.gec.bean.PageBean;
-import com.gec.bean.Type;
-import com.gec.bean.User;
-import com.gec.dao.NoticeDao;
-import com.gec.util.DBUtil;
+import com.lich.bean.Job;
+import com.lich.bean.Notice;
+import com.lich.bean.PageBean;
+import com.lich.bean.Type;
+import com.lich.bean.User;
+import com.lich.dao.NoticeDao;
+import com.lich.util.DBUtil;
 
 public class NoticeDaoImpl extends DBUtil<Notice> implements NoticeDao {
 

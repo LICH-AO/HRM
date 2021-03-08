@@ -1,9 +1,9 @@
-package com.gec.dao;
+package com.lich.dao;
 
 import java.util.List;
 
-import com.gec.bean.PageBean;
-import com.gec.bean.User;
+import com.lich.bean.PageBean;
+import com.lich.bean.User;
 
 public interface UserDao extends BaseDao<User> {
 

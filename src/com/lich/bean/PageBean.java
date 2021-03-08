@@ -1,4 +1,4 @@
-package com.gec.bean;
+package com.lich.bean;
 
 import java.util.List;
 

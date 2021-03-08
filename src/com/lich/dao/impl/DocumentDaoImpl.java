@@ -1,16 +1,16 @@
-package com.gec.dao.impl;
+package com.lich.dao.impl;
 
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.gec.bean.Dept;
-import com.gec.bean.Document;
-import com.gec.bean.Job;
-import com.gec.bean.PageBean;
-import com.gec.bean.User;
-import com.gec.dao.DocumentDao;
-import com.gec.util.DBUtil;
+import com.lich.bean.Dept;
+import com.lich.bean.Document;
+import com.lich.bean.Job;
+import com.lich.bean.PageBean;
+import com.lich.bean.User;
+import com.lich.dao.DocumentDao;
+import com.lich.util.DBUtil;
 
 public class DocumentDaoImpl extends DBUtil<Document> implements DocumentDao {
 

@@ -1,4 +1,4 @@
-package com.gec.bean;
+package com.lich.bean;
 
 /*
  *对应部门表的javabean

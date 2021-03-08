@@ -1,6 +1,6 @@
-package com.gec.dao;
+package com.lich.dao;
 
-import com.gec.bean.Employee;
+import com.lich.bean.Employee;
 
 public interface EmployeeDao extends BaseDao<Employee>{
 

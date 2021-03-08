@@ -1,6 +1,6 @@
-package com.gec.dao;
+package com.lich.dao;
 
-import com.gec.bean.Type;
+import com.lich.bean.Type;
 
 public interface TypeDao extends BaseDao<Type> {
 
