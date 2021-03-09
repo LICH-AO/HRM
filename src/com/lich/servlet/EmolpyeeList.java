@@ -148,7 +148,7 @@ public class EmolpyeeList extends HttpServlet {
 			Employee employee = es.findById(Integer.parseInt(id));
 			employee.setId(Integer.parseInt(id));
 			
-//			System.out.println("employee.getBirthday()"+employee.getBirthday());
+			System.out.println("employee.getBirthday()"+employee.getBirthday());
 			List<Job> jobList = js.findAll(pageNow);
 			List<Dept> deptList = ds.findAll(pageNow);
 			request.setAttribute("jobList", jobList);
